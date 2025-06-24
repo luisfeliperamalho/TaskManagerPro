@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\TaskManager.Application\TaskManager.Application.csproj" />
-    <ProjectReference Include="..\TaskManager.Domain\TaskManager.Domain.csproj" />
-  </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\TaskManager.Domain\TaskManager.Domain.csproj" />
+      <ProjectReference Include="..\TaskManager.Application\TaskManager.Application.csproj" />
+    </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.6" />

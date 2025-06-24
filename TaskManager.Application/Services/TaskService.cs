@@ -1,3 +1,9 @@
+using TaskManager.Application.DTOs;
+using TaskManager.Application.Interfaces;
+
+namespace TaskManager.Application.Services;
+
+
 public class TaskService : ITaskService
 {
     private static readonly List<TaskDto> _tasks = new();
@@ -12,21 +18,21 @@ public class TaskService : ITaskService
         return await Task.FromResult(_tasks.FirstOrDefault(t => t.Id == id));
     }
 
-    public async Task<TaskDto> CreateAsync(TaskDto taskDto)
+    public async Task<TaskDto> CreateAsync(TaskDto dto)
     {
-        taskDto.Id = Guid.NewGuid();
-        _tasks.Add(taskDto);
-        return await Task.FromResult(taskDto);
+        dto.Id = Guid.NewGuid();
+        _tasks.Add(dto);
+        return await Task.FromResult(dto);
     }
 
-    public async Task<bool> UpdateAsync(Guid id, TaskDto taskDto)
+    public async Task<bool> UpdateAsync(Guid id, TaskDto dto)
     {
         var existing = _tasks.FirstOrDefault(t => t.Id == id);
         if (existing == null) return false;
 
-        existing.Title = taskDto.Title;
-        existing.Description = taskDto.Description;
-        existing.IsCompleted = taskDto.IsCompleted;
+        existing.Title = dto.Title;
+        existing.Description = dto.Description;
+        existing.IsCompleted = dto.IsCompleted;
         return await Task.FromResult(true);
     }
 

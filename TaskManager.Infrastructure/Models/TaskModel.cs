@@ -1,4 +1,4 @@
-namespace TaskManagerPro.Infrastructure.Models;
+namespace TaskManager.Infrastructure.Models;
 
 public class TaskModel
 {

@@ -4,8 +4,8 @@ C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Infrastructure\bin\Debug\
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Infrastructure\bin\Debug\net9.0\TaskManager.Infrastructure.pdb
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Infrastructure\bin\Debug\net9.0\TaskManager.Application.dll
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Infrastructure\bin\Debug\net9.0\TaskManager.Domain.dll
-C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Infrastructure\bin\Debug\net9.0\TaskManager.Application.pdb
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Infrastructure\bin\Debug\net9.0\TaskManager.Domain.pdb
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Infrastructure\bin\Debug\net9.0\TaskManager.Application.pdb
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Infrastructure\obj\Debug\net9.0\TaskManager.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Infrastructure\obj\Debug\net9.0\TaskManager.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Infrastructure\obj\Debug\net9.0\TaskManager.Infrastructure.AssemblyInfoInputs.cache

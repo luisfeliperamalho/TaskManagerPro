@@ -1,13 +1,13 @@
 using AutoMapper;
-using TaskManagerPro.Domain.Entities;
-using TaskManagerPro.Infrastructure.Models;
+using TaskManager.Domain.Entities;
+using TaskManager.Application.DTOs;
 
-namespace TaskManagerPro.Application.Mappings;
+namespace TaskManager.Application.Mappings;
 
 public class TaskProfile : Profile
 {
     public TaskProfile()
     {
-        CreateMap<Task, TaskModel>().ReverseMap();
+        CreateMap<Task, TaskDto>().ReverseMap();
     }
 }
