@@ -8,6 +8,8 @@ public class Task
     public DateTime DueDate { get; private set; }
     public bool IsCompleted { get; private set; }
 
+    protected Task() { } // EF Core ou reconstrução
+
     public Task(string title, string description, DateTime dueDate)
     {
         Id = Guid.NewGuid();
@@ -17,5 +19,11 @@ public class Task
         IsCompleted = false;
     }
 
-    public void Complete() => IsCompleted = true;
+    public void Complete()
+    {
+        if (IsCompleted)
+            throw new InvalidOperationException("Tarefa já está concluída.");
+
+        IsCompleted = true;
+    }
 }
