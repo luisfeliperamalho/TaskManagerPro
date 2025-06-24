@@ -1,11 +1,20 @@
+using Microsoft.EntityFrameworkCore;
+using TaskManager.Infrastructure.Data;      // AppDbContext
+using TaskManager.Application.Mappings;           // TaskProfile
+using TaskManager.Application.Interfaces;         // ITaskService
+using TaskManager.Application.Services;           // TaskService
+using TaskManager.Domain.Interfaces;              // ITaskRepository
+using TaskManager.Infrastructure.Repositories;    // TaskRepository
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddAutoMapper(typeof(TaskProfile).Assembly);
-builder.Services.AddScoped<ITaskService, TaskService>();
 
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+builder.Services.AddScoped<ITaskService, TaskService>();
 
 
 // Add services to the container.

@@ -1,3 +1,12 @@
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.csproj.AssemblyReference.cache
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.AssemblyInfoInputs.cache
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.AssemblyInfo.cs
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.csproj.CoreCompileInputs.cache
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.sourcelink.json
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\appsettings.json
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\TaskManager.API.staticwebassets.endpoints.json
@@ -6,6 +15,8 @@ C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\Task
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\TaskManager.API.runtimeconfig.json
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\TaskManager.API.dll
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\TaskManager.API.pdb
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\Azure.Identity.dll
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
@@ -62,15 +73,6 @@ C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\Task
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\TaskManager.Application.pdb
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\TaskManager.Infrastructure.pdb
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\TaskManager.Domain.pdb
-C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.csproj.AssemblyReference.cache
-C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\rpswa.dswa.cache.json
-C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.AssemblyInfoInputs.cache
-C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.AssemblyInfo.cs
-C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.csproj.CoreCompileInputs.cache
-C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\TaskManager.API.sourcelink.json
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json

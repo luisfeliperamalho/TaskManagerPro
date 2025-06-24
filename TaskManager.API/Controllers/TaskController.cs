@@ -1,3 +1,10 @@
+using Microsoft.AspNetCore.Mvc;
+using TaskManager.Application.DTOs;
+using TaskManager.Application.Services;
+using TaskManager.Application.Interfaces;
+
+namespace TaskManager.API.Controllers;
+
 [ApiController]
 [Route("api/[controller]")]
 public class TasksController : ControllerBase
