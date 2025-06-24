@@ -1,0 +1,16 @@
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\bin\Debug\net9.0\TaskManager.Application.deps.json
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\bin\Debug\net9.0\TaskManager.Application.dll
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\bin\Debug\net9.0\TaskManager.Application.pdb
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\bin\Debug\net9.0\TaskManager.Domain.dll
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\bin\Debug\net9.0\TaskManager.Domain.pdb
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\obj\Debug\net9.0\TaskManager.Application.csproj.AssemblyReference.cache
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\obj\Debug\net9.0\TaskManager.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\obj\Debug\net9.0\TaskManager.Application.AssemblyInfoInputs.cache
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\obj\Debug\net9.0\TaskManager.Application.AssemblyInfo.cs
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\obj\Debug\net9.0\TaskManager.Application.csproj.CoreCompileInputs.cache
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\obj\Debug\net9.0\TaskManager.Application.sourcelink.json
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\obj\Debug\net9.0\TaskMana.898BD9DB.Up2Date
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\obj\Debug\net9.0\TaskManager.Application.dll
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\obj\Debug\net9.0\refint\TaskManager.Application.dll
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\obj\Debug\net9.0\TaskManager.Application.pdb
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.Application\obj\Debug\net9.0\ref\TaskManager.Application.dll
