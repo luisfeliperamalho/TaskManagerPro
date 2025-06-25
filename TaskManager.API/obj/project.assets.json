@@ -4866,11 +4866,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.API\\TaskManager.API.csproj",
+      "projectUniqueName": "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.API\\TaskManager.API.csproj",
       "projectName": "TaskManager.API",
-      "projectPath": "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.API\\TaskManager.API.csproj",
+      "projectPath": "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.API\\TaskManager.API.csproj",
       "packagesPath": "C:\\Users\\l.ramalho.oliveira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.API\\obj\\",
+      "outputPath": "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\l.ramalho.oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4885,8 +4885,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj": {
-              "projectPath": "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj"
+            "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj": {
+              "projectPath": "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj"
             },
             "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj"

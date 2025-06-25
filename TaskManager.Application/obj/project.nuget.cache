@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/s/ZxVb4X0c=",
+  "dgSpecHash": "XrkZDI/UhFk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj",
+  "projectFilePath": "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\l.ramalho.oliveira\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\l.ramalho.oliveira\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

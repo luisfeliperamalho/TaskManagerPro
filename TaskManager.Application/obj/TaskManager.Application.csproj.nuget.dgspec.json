@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj": {}
+    "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj": {
+    "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj",
+        "projectUniqueName": "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj",
         "projectName": "TaskManager.Application",
-        "projectPath": "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj",
+        "projectPath": "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj",
         "packagesPath": "C:\\Users\\l.ramalho.oliveira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\obj\\",
+        "outputPath": "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\l.ramalho.oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\TaskManager.Domain.csproj": {
-                "projectPath": "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\TaskManager.Domain.csproj"
+              "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\TaskManager.Domain.csproj": {
+                "projectPath": "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\TaskManager.Domain.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\TaskManager.Domain.csproj": {
+    "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\TaskManager.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\TaskManager.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\TaskManager.Domain.csproj",
         "projectName": "TaskManager.Domain",
-        "projectPath": "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\TaskManager.Domain.csproj",
+        "projectPath": "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\TaskManager.Domain.csproj",
         "packagesPath": "C:\\Users\\l.ramalho.oliveira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\obj\\",
+        "outputPath": "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\l.ramalho.oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config"

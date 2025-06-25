@@ -4800,11 +4800,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj": {
-              "projectPath": "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj"
+            "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj": {
+              "projectPath": "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Application\\TaskManager.Application.csproj"
             },
-            "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\TaskManager.Domain.csproj": {
-              "projectPath": "C:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\TaskManager.Domain.csproj"
+            "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\TaskManager.Domain.csproj": {
+              "projectPath": "c:\\Users\\l.ramalho.oliveira\\TaskManagerPro\\TaskManager.Domain\\TaskManager.Domain.csproj"
             }
           }
         }

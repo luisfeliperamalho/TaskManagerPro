@@ -3,7 +3,6 @@ using TaskManager.Infrastructure.Data;      // AppDbContext
 using TaskManager.Application.Mappings;           // TaskProfile
 using TaskManager.Application.Interfaces;         // ITaskService
 using TaskManager.Application.Services;           // TaskService
-using TaskManager.Domain.Interfaces;              // ITaskRepository
 using TaskManager.Infrastructure.Repositories;    // TaskRepository
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +14,9 @@ builder.Services.AddAutoMapper(typeof(TaskProfile).Assembly);
 
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddScoped<ITaskService, TaskService>();
+builder.Services.AddControllers();
+
+
 
 
 // Add services to the container.
@@ -22,6 +24,9 @@ builder.Services.AddScoped<ITaskService, TaskService>();
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
+
+app.UseRouting();
+app.MapControllers();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
