@@ -8,6 +8,6 @@ public class TaskProfile : Profile
 {
     public TaskProfile()
     {
-        CreateMap<Task, TaskDto>().ReverseMap();
+        CreateMap<Task, ActivityDto>().ReverseMap();
     }
 }

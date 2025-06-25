@@ -1,5 +1,5 @@
 using TaskManager.Domain.Entities;
-using TaskManager.Domain.Interfaces;
+using TaskManager.Application.Interfaces;
 using TaskManager.Infrastructure.Data;
 using TaskManager.Infrastructure.Models;
 
@@ -17,21 +17,21 @@ namespace TaskManager.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<TaskItem>> GetAllAsync()
+        public async Task<IEnumerable<Activity>> GetAllAsync()
+        {
+            var entities = await _context.Tasks.ToListAsync();
+            return entities.Select(t => new Activity
             {
-                var entities = await _context.Tasks.ToListAsync();
-                return entities.Select(t => new TaskItem
-                {
-                    Id = t.Id,
-                    Title = t.Title,
-                    IsCompleted = t.IsCompleted
-                });
-            }
+                Id = t.Id,
+                Title = t.Title,
+                IsCompleted = t.IsCompleted
+            });
+        }
 
-        public async Task<TaskItem?> GetByIdAsync(Guid id)
+        public async Task<Activity?> GetByIdAsync(Guid id)
         {
             var t = await _context.Tasks.FindAsync(id);
-            return t == null ? null : new TaskItem
+            return t == null ? null : new Activity
             {
                 Id = t.Id,
                 Title = t.Title,
@@ -40,7 +40,7 @@ namespace TaskManager.Infrastructure.Repositories
             };
         }
 
-        public async Task<TaskItem> CreateAsync(TaskItem item)
+        public async Task<Activity> CreateAsync(Activity item)
         {
             var entity = new TaskModel
             {
@@ -57,7 +57,7 @@ namespace TaskManager.Infrastructure.Repositories
             return item;
         }
 
-        public async Task<bool> UpdateAsync(Guid id, TaskItem item)
+        public async Task<bool> UpdateAsync(Guid id, Activity item)
         {
             var entity = await _context.Tasks.FindAsync(id);
             if (entity == null) return false;

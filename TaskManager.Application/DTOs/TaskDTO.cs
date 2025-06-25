@@ -1,6 +1,6 @@
 namespace TaskManager.Application.DTOs;
 
-public class TaskDto
+public class ActivityDto
 {
     public Guid Id { get; set; }
     public string Title { get; set; } = null!;

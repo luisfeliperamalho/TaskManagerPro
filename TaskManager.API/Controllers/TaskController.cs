@@ -28,10 +28,10 @@ public class TasksController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> Create(TaskDto dto) => Ok(await _taskService.CreateAsync(dto));
+    public async Task<IActionResult> Create(ActivityDto dto) => Ok(await _taskService.CreateAsync(dto));
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> Update(Guid id, TaskDto dto)
+    public async Task<IActionResult> Update(Guid id, ActivityDto dto)
     {
         var result = await _taskService.UpdateAsync(id, dto);
         return result ? Ok() : NotFound();

@@ -6,26 +6,26 @@ namespace TaskManager.Application.Services;
 
 public class TaskService : ITaskService
 {
-    private static readonly List<TaskDto> _tasks = new();
+    private static readonly List<ActivityDto> _tasks = new();
 
-    public async Task<IEnumerable<TaskDto>> GetAllAsync()
+    public async Task<IEnumerable<ActivityDto>> GetAllAsync()
     {
         return await Task.FromResult(_tasks);
     }
 
-    public async Task<TaskDto?> GetByIdAsync(Guid id)
+    public async Task<ActivityDto?> GetByIdAsync(Guid id)
     {
         return await Task.FromResult(_tasks.FirstOrDefault(t => t.Id == id));
     }
 
-    public async Task<TaskDto> CreateAsync(TaskDto dto)
+    public async Task<ActivityDto> CreateAsync(ActivityDto dto)
     {
         dto.Id = Guid.NewGuid();
         _tasks.Add(dto);
         return await Task.FromResult(dto);
     }
 
-    public async Task<bool> UpdateAsync(Guid id, TaskDto dto)
+    public async Task<bool> UpdateAsync(Guid id, ActivityDto dto)
     {
         var existing = _tasks.FirstOrDefault(t => t.Id == id);
         if (existing == null) return false;
