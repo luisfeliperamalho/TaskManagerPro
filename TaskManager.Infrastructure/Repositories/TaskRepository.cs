@@ -28,7 +28,7 @@ namespace TaskManager.Infrastructure.Repositories
             });
         }
 
-        public async Task<Activity?> GetByIdAsync(Guid id)
+        public async Task<Activity?> GetByIdAsync(int id)
         {
             var t = await _context.Tasks.FindAsync(id);
             return t == null ? null : new Activity
@@ -44,7 +44,6 @@ namespace TaskManager.Infrastructure.Repositories
         {
             var entity = new TaskModel
             {
-                Id = Guid.NewGuid(),
                 Title = item.Title,
                 Description = item.Description,
                 IsCompleted = item.IsCompleted
@@ -57,7 +56,7 @@ namespace TaskManager.Infrastructure.Repositories
             return item;
         }
 
-        public async Task<bool> UpdateAsync(Guid id, Activity item)
+        public async Task<bool> UpdateAsync(int id, Activity item)
         {
             var entity = await _context.Tasks.FindAsync(id);
             if (entity == null) return false;
@@ -69,7 +68,7 @@ namespace TaskManager.Infrastructure.Repositories
             return true;
         }
 
-        public async Task<bool> DeleteAsync(Guid id)
+        public async Task<bool> DeleteAsync(int id)
         {
             var entity = await _context.Tasks.FindAsync(id);
             if (entity == null) return false;

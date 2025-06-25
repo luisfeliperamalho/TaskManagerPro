@@ -2,7 +2,7 @@ namespace TaskManager.Domain.Entities;
 
 public class Activity
 {
-    public Guid Id { get; set; }
+    public int Id { get; set; }
     public string Title { get; set; }
     public string Description { get; set; }
     public DateTime DueDate { get; set; }
@@ -12,7 +12,6 @@ public class Activity
 
     public Activity(string title, string description, DateTime dueDate)
     {
-        Id = Guid.NewGuid();
         Title = title;
         Description = description;
         DueDate = dueDate;

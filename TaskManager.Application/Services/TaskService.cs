@@ -1,47 +1,50 @@
+using AutoMapper;
 using TaskManager.Application.DTOs;
 using TaskManager.Application.Interfaces;
+using TaskManager.Domain.Entities;
 
 namespace TaskManager.Application.Services;
 
 
 public class TaskService : ITaskService
 {
-    private static readonly List<ActivityDto> _tasks = new();
+    private readonly ITaskRepository _taskRepository;
+    private readonly IMapper _mapper;
+
+    public TaskService(ITaskRepository taskRepository, IMapper mapper)
+    {
+        _taskRepository = taskRepository;
+        _mapper = mapper;
+    }
 
     public async Task<IEnumerable<ActivityDto>> GetAllAsync()
     {
-        return await Task.FromResult(_tasks);
+        var activities = await _taskRepository.GetAllAsync();
+        return _mapper.Map<IEnumerable<ActivityDto>>(activities);
     }
 
-    public async Task<ActivityDto?> GetByIdAsync(Guid id)
+    public async Task<ActivityDto?> GetByIdAsync(int id)
     {
-        return await Task.FromResult(_tasks.FirstOrDefault(t => t.Id == id));
+        var activity = await _taskRepository.GetByIdAsync(id);
+        return activity == null ? null : _mapper.Map<ActivityDto>(activity);
     }
 
     public async Task<ActivityDto> CreateAsync(ActivityDto dto)
     {
-        dto.Id = Guid.NewGuid();
-        _tasks.Add(dto);
-        return await Task.FromResult(dto);
+        var activity = _mapper.Map<Activity>(dto);
+        var created = await _taskRepository.CreateAsync(activity);
+        return _mapper.Map<ActivityDto>(created);
     }
 
-    public async Task<bool> UpdateAsync(Guid id, ActivityDto dto)
+    public async Task<bool> UpdateAsync(int id, ActivityDto dto)
     {
-        var existing = _tasks.FirstOrDefault(t => t.Id == id);
-        if (existing == null) return false;
-
-        existing.Title = dto.Title;
-        existing.Description = dto.Description;
-        existing.IsCompleted = dto.IsCompleted;
-        return await Task.FromResult(true);
+        var activity = _mapper.Map<Activity>(dto);
+        activity.Id = id;
+        return await _taskRepository.UpdateAsync(activity.Id, activity);
     }
 
-    public async Task<bool> DeleteAsync(Guid id)
+    public async Task<bool> DeleteAsync(int id)
     {
-        var task = _tasks.FirstOrDefault(t => t.Id == id);
-        if (task == null) return false;
-
-        _tasks.Remove(task);
-        return await Task.FromResult(true);
+        return await _taskRepository.DeleteAsync(id);
     }
 }

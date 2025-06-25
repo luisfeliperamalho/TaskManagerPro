@@ -17,6 +17,7 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<TaskModel>(entity =>
         {
             entity.HasKey(e => e.Id);
+            entity.Property(e => e.Id).ValueGeneratedOnAdd();
             entity.Property(e => e.Title).IsRequired().HasMaxLength(100);
             entity.Property(e => e.Description).HasMaxLength(500);
             entity.Property(e => e.DueDate).IsRequired();

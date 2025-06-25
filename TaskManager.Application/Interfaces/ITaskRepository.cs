@@ -5,8 +5,8 @@ namespace TaskManager.Application.Interfaces;
 public interface ITaskRepository
 {
     Task<IEnumerable<Activity>> GetAllAsync();
-    Task<Activity?> GetByIdAsync(Guid id);
+    Task<Activity?> GetByIdAsync(int id);
     Task<Activity> CreateAsync(Activity task);
-    Task<bool> UpdateAsync(Guid id, Activity task);
-    Task<bool> DeleteAsync(Guid id);
+    Task<bool> UpdateAsync(int id, Activity task);
+    Task<bool> DeleteAsync(int id);
 }

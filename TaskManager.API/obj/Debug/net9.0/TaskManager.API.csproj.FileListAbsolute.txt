@@ -169,3 +169,10 @@ C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\ru\M
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\l.ramalho.oliveira\TaskManagerPro\TaskManager.API\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
