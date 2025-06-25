@@ -24,6 +24,7 @@ namespace TaskManager.Infrastructure.Repositories
             {
                 Id = t.Id,
                 Title = t.Title,
+                Description = t.Description,
                 IsCompleted = t.IsCompleted
             });
         }
