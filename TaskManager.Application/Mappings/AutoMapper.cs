@@ -4,11 +4,12 @@ using TaskManager.Application.DTOs;
 
 namespace TaskManager.Application.Mappings;
 
-public class TaskProfile : Profile
+public class ActivityProfile : Profile
 {
-    public TaskProfile()
+    public ActivityProfile()
     {
         CreateMap<Activity, ActivityDto>();
         CreateMap<ActivityDto, Activity>();
+
     }
 }
