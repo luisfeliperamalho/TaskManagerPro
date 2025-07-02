@@ -1,6 +1,8 @@
 using AutoMapper;
 using TaskManager.Application.DTOs;
 using TaskManager.Application.Interfaces;
+using TaskManager.Infrastructure.Interfaces;
+
 using TaskManager.Domain.Entities;
 
 namespace TaskManager.Application.Services;

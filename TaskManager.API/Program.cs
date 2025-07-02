@@ -4,6 +4,7 @@ using TaskManager.Application.Mappings;           // TaskProfile
 using TaskManager.Application.Interfaces;         // ITaskService
 using TaskManager.Application.Services;           // TaskService
 using TaskManager.Infrastructure.Repositories;    // TaskRepository
+using TaskManager.Infrastructure.Interfaces;         // ITaskRepository
 
 var builder = WebApplication.CreateBuilder(args);
 
