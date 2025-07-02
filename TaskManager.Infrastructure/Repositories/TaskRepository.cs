@@ -1,8 +1,7 @@
 using TaskManager.Domain.Entities;
-using TaskManager.Application.Interfaces;
+using TaskManager.Infrastructure.Interfaces;
 using TaskManager.Infrastructure.Data;
 using TaskManager.Infrastructure.Models;
-
 using Microsoft.EntityFrameworkCore;
 
 
