@@ -22,7 +22,7 @@ O objetivo deste projeto é desenvolver uma aplicação **CRUD** utilizando **.N
 - ✅ Atualizar dados (**Update**)
 - ✅ Remover registros (**Delete**)
 - ✅ Integração com banco de dados na nuvem (**Azure SQL**)
-- 🔒 Autenticação e Autorização *(em breve)*
+- ✅ Autenticação e Autorização
 - 🧪 Testes unitários *(em breve)*
 - 🚀 Deploy com CI/CD *(em breve)*
 
