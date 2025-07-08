@@ -3,7 +3,15 @@ using TaskManager.Infrastructure.Data;      // AppDbContext
 using TaskManager.Application.Mappings;           // TaskProfile
 using TaskManager.Application.Interfaces;         // ITaskService
 using TaskManager.Application.Services;           // TaskService
-using TaskManager.Infrastructure.Repositories;    // TaskRepository
+using TaskManager.Infrastructure.Repositories;
+
+using Serilog;
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug()
+    .WriteTo.Console()
+    .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +25,7 @@ builder.Services.AddAutoMapper(typeof(TaskProfile));
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddScoped<ITaskService, TaskService>();
 builder.Services.AddControllers();
+builder.Host.UseSerilog();
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
